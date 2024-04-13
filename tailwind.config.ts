@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      fontFamily: {
+        body: ["var(--font-nunito-sans)"], 
+        display: ["var(--font-nunito)"],
+      }
     },
   },
   plugins: [],
